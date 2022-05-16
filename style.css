@@ -604,7 +604,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: #ffffff;
 }
 
 .next-lightbox,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #0b0a0a/*#575757*/!important;
+    color: #000000/*#575757*/!important;
 }
 
 .container {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #ffffff!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -723,20 +723,21 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important/*#333333!important*/;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important/*#333333!important*/;
 }
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+    color:#000000;
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF/*#faf1f1!important*/;
 }
 
 .portfolio-thumb {
@@ -763,7 +764,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #fbf5f5;
 }
 
 .bgc-dark-slate-blue {
@@ -775,21 +776,21 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important/*#F3976C!important*/;
+    color:#ffffff!important;/* #F3976C!important*/
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: hsl(0, 3%, 7%)!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000/*#bcbcbc!important*/;
 }
 
 .ltc-white:hover {
