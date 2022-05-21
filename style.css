@@ -23,7 +23,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 999/*100000*/;
+    z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -686,13 +686,13 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 32px;
     font-family: "Open Sans";
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #ffffff!important;
+    color: rgb(9, 8, 8)!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
@@ -723,21 +723,20 @@ h3 {
 }
 
 h1 {
-    color: #000000!important/*#333333!important*/;
+    color: #333333!important;
 }
 
 h4 {
-    color: #000000!important/*#333333!important*/;
+    color: #333333!important;
 }
 
 .icons {
     margin-bottom: 14px;
-    margin-top: 24px;
     color:#000000;
 }
 
 .white {
-    color: #FFFFFF/*#faf1f1!important*/;
+    color: #fff/*#faf1f1!important*/;
 }
 
 .portfolio-thumb {
@@ -768,7 +767,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #faf6f6/*#364577*/;
+    background-color: rgb(248, 244, 244)/*#364577*/;
 }
 
 .bgc-atomic-tangerine {
@@ -794,7 +793,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: white/*#cccccc!important*/;
 }
 
 .ltc-atomic-tangerine {
@@ -823,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
